@@ -11,12 +11,12 @@
         /* General Styles */
         body {
             margin: 0;
-            font-family: Arial, sans-serif;
-            background-image: url('images/devcon_background.png');
+            font-family: "Times New Roman", Times, serif;
+            background-image: url('../assets/images/devcon_background.png');
             background-repeat: no-repeat;
             background-position: left;
             background-size: cover;
-            color: white;
+            color: rgb(255, 255, 255);
             position: relative;
             overflow: hidden;
             display: flex;
@@ -29,7 +29,7 @@
         .container {
             display: flex;
             flex-direction: column;
-            align-items: left;
+            align-items: center;
             justify-content: flex-start; 
             max-height: 100vh; 
             overflow-y: auto; 
@@ -54,10 +54,18 @@
             margin-top: 25px;
         }
 
+        .about-me {
+            display: flex;
+            align-items: center;
+            gap: 20px; 
+            flex-wrap: wrap;
+            justify-content: left; 
+        }
+      
         /* Header Layout */
         .header {
             display: flex;
-            align-items: left;
+            align-items: center;
             gap: 20px; 
             flex-wrap: wrap;
             justify-content: left; 
@@ -391,33 +399,30 @@
             transform: translateY(0);
             box-shadow: 0 3px 6px rgba(0, 139, 191, 0.5);
         }
-        
+    
     </style>
 </head>
 <body>
     <div class="container">
         <!-- The rest of your HTML content goes here -->
         <div class="header">
-            <div class="profile-pic" style="background-image: url('images/profile-pic.jpg');"></div>
+            <div class="profile-pic" style="background-image: url('../assets/images/image.jpg');"></div>
         </div>
 
         <!-- Placeholder for your name -->
         <h1>John Peter Gamboa</h1>
-        <p class="description">I am an innovator, and build projects for fun♥</p>
-        <h3>About Me:</h3>
+        <p class="description">I am an it student in holy cross♥</p>
+     
 
         <!-- Placeholder for About Me Section -->
         <div class="about-me">
-            <h3> Affiliations:</h3>
+            <h3>hobbies:</h3>
             <ul>
-                <li>DEVCON Cagayan de Oro Vice President - 2025</li>
-                <li>DEVCON Code Camps Core Team - 2025</li>
-                <li>Former DEVCON Vice President for Student Engagement - 2024</li>
-                <li>Former Campus DEVCON Ambassador - 2024</li>
+                <li>Online games</li>
+                <li>watching anime</li>
+                <li>Reading Books</li>
             </ul>
-
-         
-         
+</div>
 
         <!-- Centered Links -->
         <div class="links">
@@ -442,7 +447,7 @@
             <div class="landing-page">
                 <div class="landing-content">
                     <div class="landing-image">
-                        <img src="images/icp-logo.png" alt="ICP Logo">
+                        <img src="../assets/images/icp-logo.png" alt="ICP Logo">
                     </div>
                     <div class="landing-text">
                         <h2>About ICP</h2>
@@ -463,8 +468,8 @@
 
             
             <div class="footer-logos">
-                <img src="images/devcon-logo.png" alt="DEVCON Logo" class="footer-logo">
-                <img src="images/icp-logo.png" alt="ICP Logo" class="footer-logo">
+                <img src="../assets/images/devcon-logo.png" alt="DEVCON Logo" class="footer-logo">
+                <img src="../assets/images/icp-logo.png" alt="ICP Logo" class="footer-logo">
             </div>
         </div>
     </div>
